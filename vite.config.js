@@ -5,4 +5,8 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: "/MyCv",
   plugins: [react()],
+  server: {
+    host: true,
+    allowedHosts: true
+  }
 });
